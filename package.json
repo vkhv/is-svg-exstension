@@ -4,7 +4,7 @@
   "description": "Checks if it is ends in a file name = .svg.",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "node node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",

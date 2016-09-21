@@ -1,0 +1,27 @@
+{
+  "name": "is-svg-exstension",
+  "version": "0.1.0",
+  "description": "Checks if it is ends in a file name = .svg.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkhv/is-svg-exstension.git"
+  },
+  "keywords": [
+    "isSvg",
+    "svg"
+  ],
+  "author": "Vladislav Khvostov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkhv/is-svg-exstension/issues"
+  },
+  "homepage": "https://github.com/vkhv/is-svg-exstension#readme",
+  "devDependencies": {
+    "install": "^0.8.1",
+    "mocha": "^3.0.2"
+  }
+}

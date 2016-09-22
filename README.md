@@ -17,7 +17,6 @@ gulp.task('svg-minify', function() {
 		files.forEach(file => {
 			isSvg(file.path) && gulp.src(file.path)
 				.pipe(svgMin())
-				// Запись в исходный файл.
 				.pipe(gulp.dest(path.dirname(file.path)));
 		});
 	}).catch(error => console.error(error))

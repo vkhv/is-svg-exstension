@@ -7,5 +7,7 @@ Checks filename ending .svg
 ```
 const isSvg = require('is-svg-extension');
 
-isSvg(file.path); // => true
+isSvg('some.svg'); // => true
+isSvg('somesvgo'); // => false
+
 ```

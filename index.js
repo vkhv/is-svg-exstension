@@ -1,3 +1,1 @@
-module.exports = function(fileName) {
-    return /\.svg$/.test(fileName);
-}
+module.exports = (fileName) => /\.svg$/.test(fileName);
